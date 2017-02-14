@@ -6,7 +6,6 @@ const test1 = letIn(
   (a, b) => a + b
 );
 
-
 if(test1() != 4) {
   throw Error("Test 1 failed");
 }
