@@ -71,3 +71,14 @@ console.log(fn(1, 1)); // 16
     (...xs) => xs.reduce((sum, x) => sum + x, 0);
   )
 ```
+
+### After3 + lambda-light 
+
+```js
+  const after = (a, b, c) => letIn(
+    () => a ^ 2,
+    () => b / 3,
+    () => c - 1,
+    (...xs) => reduce(sum, 0, xs);
+  )
+```
