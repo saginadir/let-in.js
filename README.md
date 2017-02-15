@@ -18,7 +18,7 @@ Let expressions make everything simpler. Creates smaller and more resuable funct
 ### After
 
 ```
-  const after = (a, b, c) => letInRun(
+  const after = (a, b, c) => letIn(
     () => a ^ 2,
     () => b / 3,
     () => c - 1,
@@ -30,7 +30,7 @@ Let expressions make everything simpler. Creates smaller and more resuable funct
 ### After2
 
 ```
-  const after = (a, b, c) => letInRun(
+  const after = (a, b, c) => letIn(
     () => a ^ 2,
     () => b / 3,
     () => c - 1,
